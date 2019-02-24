@@ -1,0 +1,22 @@
+// In this committee I will try to count how many seconds in the year. //
+var secondsInAMinute = 60;
+var minutesInAHour = 60;
+var secondsInAnHour = secondsInAMinute * minutesInAnHour;
+secondsInAnHour;
+// And it turned out 3600 seconds per hour. // 
+// Now there are seconds in the day. //
+var hoursInADay = 24;
+var secondsInADay = secondsInAnHour * hoursInADay;
+secondsInADay;
+// And we got 86400, which means that the day has 86400 seconds. //
+// Now we count seconds in a year. //
+var daysInAYear = 365;
+var secondsInAYear = secondsInaDay * daysInAYear;
+secondsInAYear;
+// And we get 31536000, which means that in the year 31536000 seconds. //
+// Now we will calculate the age in seconds, for example I am 20 years old. Now you need to write: //
+var age = 20;
+age * secondsInAYear;
+// And we get 630720000. This means that if you are 20 years old, then you've already lived 630720000 seconds. //
+// goodbye //
+
